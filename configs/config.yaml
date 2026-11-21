@@ -1,0 +1,59 @@
+# TruthLens AI: System Configuration
+# Centralized configuration managed with pathlib-friendly paths
+
+project:
+  name: "TruthLens AI"
+  title: "Multimodal NLP for Deepfake Detection and Explainable Content Verification"
+  course: "CSET346 – Natural Language Processing"
+  version: "1.0.0"
+  random_seed: 42
+
+environment:
+  device: "auto" # "cuda", "cpu", or "auto"
+  num_workers: 0 # Windows safe multi-threading
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+  min_samples: 300
+  image_size: 224
+
+models:
+  text_baseline:
+    backbone: "distilbert-base-uncased"
+    max_token_len: 128
+    learning_rate: 2.0e-5
+    batch_size: 16
+    epochs: 5
+
+  image_baseline:
+    backbone: "resnet50" # lightweight & robust for local CPU/GPU execution
+    image_size: 224
+    learning_rate: 1.0e-4
+    batch_size: 16
+    epochs: 5
+
+  multimodal_feature_fusion:
+    text_backbone: "distilbert-base-uncased"
+    image_backbone: "resnet50"
+    fusion_type: "concat_projection" # Options: concat_projection, cross_attention
+    hidden_dim: 256
+    learning_rate: 1.0e-4
+    batch_size: 16
+    epochs: 8
+
+  multimodal_decision_fusion:
+    method: "weighted_average" # Options: weighted_average, learned_meta_classifier
+    uncertainty_threshold: 0.60
+
+inference:
+  classes:
+    0: "REAL"
+    1: "FAKE"
+    2: "UNCERTAIN"
+  uncertainty_margin: 0.15
+  min_confidence: 0.60

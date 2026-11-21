@@ -1,0 +1,47 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Data and large artifacts (DO NOT COMMIT RAW DATASETS)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Checkpoints and models (DO NOT COMMIT MODEL WEIGHTS)
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Experiment runs & logs
+runs/
+logs/
+*.log
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity agent temp files
+setup_skeleton.py
