@@ -1,0 +1,167 @@
+[
+  {
+    "case_num": 1,
+    "sample_id": "FKD-c6b7zdr",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.5338,
+    "conflict_score": 0.4655,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled UNCERTAIN while Image model signaled FAKE."
+  },
+  {
+    "case_num": 2,
+    "sample_id": "FKD-c4r5s1d",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "REAL",
+    "confidence": 0.5603,
+    "conflict_score": 0.2283,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual media exhibits authentic pixel signatures. Textual claims correspond factually with depicted context. High cross-modal semantic agreement confirmed."
+  },
+  {
+    "case_num": 3,
+    "sample_id": "FKD-cjzfplj",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.4531,
+    "conflict_score": 0.5559,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled FAKE while Image model signaled REAL."
+  },
+  {
+    "case_num": 4,
+    "sample_id": "FKD-2ol6hl",
+    "manipulation_type": "out_of_context",
+    "ground_truth": "FAKE",
+    "model_prediction": "REAL",
+    "confidence": 0.5397,
+    "conflict_score": 0.4072,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual media exhibits authentic pixel signatures. Textual claims correspond factually with depicted context. High cross-modal semantic agreement confirmed."
+  },
+  {
+    "case_num": 5,
+    "sample_id": "FKD-c7wpgc7",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "FAKE",
+    "confidence": 0.6742,
+    "conflict_score": 0.1131,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual analysis detected structural pixel manipulation anomalies (diffusion/splice/warping). Linguistic assessment identified high-probability deceptive phrasing. Cross-modal inspection revealed semantic mismatch between image content and textual claims."
+  },
+  {
+    "case_num": 6,
+    "sample_id": "FKD-cgrhnjd",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "FAKE",
+    "confidence": 0.7528,
+    "conflict_score": 0.1612,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual analysis detected structural pixel manipulation anomalies (diffusion/splice/warping). Linguistic assessment identified high-probability deceptive phrasing. Cross-modal inspection revealed semantic mismatch between image content and textual claims."
+  },
+  {
+    "case_num": 7,
+    "sample_id": "FKD-5mxtk0",
+    "manipulation_type": "out_of_context",
+    "ground_truth": "FAKE",
+    "model_prediction": "REAL",
+    "confidence": 0.6387,
+    "conflict_score": 0.0611,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual media exhibits authentic pixel signatures. Textual claims correspond factually with depicted context. High cross-modal semantic agreement confirmed."
+  },
+  {
+    "case_num": 8,
+    "sample_id": "FKD-cmuxd4g",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "FAKE",
+    "confidence": 0.5922,
+    "conflict_score": 0.2858,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual analysis detected structural pixel manipulation anomalies (diffusion/splice/warping). Cross-modal inspection revealed semantic mismatch between image content and textual claims."
+  },
+  {
+    "case_num": 9,
+    "sample_id": "FKD-759vw7",
+    "manipulation_type": "out_of_context",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.4812,
+    "conflict_score": 0.4122,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled REAL while Image model signaled FAKE."
+  },
+  {
+    "case_num": 10,
+    "sample_id": "FKD-co34t9h",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.5135,
+    "conflict_score": 0.5394,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled UNCERTAIN while Image model signaled FAKE."
+  },
+  {
+    "case_num": 11,
+    "sample_id": "FKD-cn6khz8",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "FAKE",
+    "confidence": 0.7888,
+    "conflict_score": 0.151,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Visual analysis detected structural pixel manipulation anomalies (diffusion/splice/warping). Linguistic assessment identified high-probability deceptive phrasing. Cross-modal inspection revealed semantic mismatch between image content and textual claims."
+  },
+  {
+    "case_num": 12,
+    "sample_id": "FKD-c7lwnbn",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "FAKE",
+    "confidence": 0.8287,
+    "conflict_score": 0.1117,
+    "consistency_status": "AMBIGUOUS",
+    "explanation": "Visual analysis detected structural pixel manipulation anomalies (diffusion/splice/warping). Linguistic assessment identified high-probability deceptive phrasing."
+  },
+  {
+    "case_num": 13,
+    "sample_id": "FKD-diepqm4",
+    "manipulation_type": "photoshop_splice",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.4617,
+    "conflict_score": 0.0429,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled FAKE while Image model signaled UNCERTAIN."
+  },
+  {
+    "case_num": 14,
+    "sample_id": "FKD-7v24kl",
+    "manipulation_type": "out_of_context",
+    "ground_truth": "FAKE",
+    "model_prediction": "REAL",
+    "confidence": 0.4332,
+    "conflict_score": 0.2224,
+    "consistency_status": "AMBIGUOUS",
+    "explanation": "Visual media exhibits authentic pixel signatures. Textual claims correspond factually with depicted context. High cross-modal semantic agreement confirmed."
+  },
+  {
+    "case_num": 15,
+    "sample_id": "FKD-5vzf98",
+    "manipulation_type": "out_of_context",
+    "ground_truth": "FAKE",
+    "model_prediction": "UNCERTAIN",
+    "confidence": 0.5453,
+    "conflict_score": 0.5281,
+    "consistency_status": "MISALIGNED",
+    "explanation": "Multimodal evidence is conflicting, degraded, or below minimum confidence thresholds. Modality conflict observed: Text model signaled UNCERTAIN while Image model signaled FAKE."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "model": "Text-Only Baseline (DistilBERT)",
+    "accuracy": 0.6722,
+    "precision": 0.6281,
+    "recall": 0.6178,
+    "f1": 0.6139
+  },
+  {
+    "model": "Image-Only Baseline (ResNet-50)",
+    "accuracy": 0.6944,
+    "precision": 0.6789,
+    "recall": 0.6622,
+    "f1": 0.6688
+  },
+  {
+    "model": "Multimodal Model (Feature Fusion)",
+    "accuracy": 0.7667,
+    "precision": 0.7547,
+    "recall": 0.72,
+    "f1": 0.7312
+  }
+]

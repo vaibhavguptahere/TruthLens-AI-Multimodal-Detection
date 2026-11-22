@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": "FKD-c82270",
+    "manipulation_type": "none",
+    "gradcam_peak": 0.9961,
+    "gradcam_concentration_ratio": 1.55,
+    "top_salient_token": "there",
+    "token_importance": 0.3843,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-ciyfrj",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 1.51,
+    "top_salient_token": "this",
+    "token_importance": 0.5885,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-bqh07y",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 1.56,
+    "top_salient_token": "battle",
+    "token_importance": 0.9106,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-14jlcd",
+    "manipulation_type": "none",
+    "gradcam_peak": 0.9961,
+    "gradcam_concentration_ratio": 1.77,
+    "top_salient_token": "two",
+    "token_importance": 0.5886,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-2dhkvw",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 1.63,
+    "top_salient_token": "my",
+    "token_importance": 1.0,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-5wcrbc",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 1.6,
+    "top_salient_token": "in",
+    "token_importance": 0.4577,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-1unflb",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 2.08,
+    "top_salient_token": "kanye",
+    "token_importance": 1.0,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-bgsitn",
+    "manipulation_type": "none",
+    "gradcam_peak": 0.9961,
+    "gradcam_concentration_ratio": 1.75,
+    "top_salient_token": "this",
+    "token_importance": 0.6008,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-c2ifyl",
+    "manipulation_type": "none",
+    "gradcam_peak": 1.0,
+    "gradcam_concentration_ratio": 1.73,
+    "top_salient_token": "i",
+    "token_importance": 0.8981,
+    "faithfulness_verdict": "FAITHFUL"
+  },
+  {
+    "sample_id": "FKD-d7nhye",
+    "manipulation_type": "none",
+    "gradcam_peak": 0.9961,
+    "gradcam_concentration_ratio": 1.84,
+    "top_salient_token": "my",
+    "token_importance": 0.941,
+    "faithfulness_verdict": "FAITHFUL"
+  }
+]

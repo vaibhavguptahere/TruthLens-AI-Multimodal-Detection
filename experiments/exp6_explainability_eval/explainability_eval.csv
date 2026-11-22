@@ -1,0 +1,11 @@
+sample_id,manipulation_type,gradcam_peak,gradcam_concentration_ratio,top_salient_token,token_importance,faithfulness_verdict
+FKD-c82270,none,0.9961,1.55,there,0.3843,FAITHFUL
+FKD-ciyfrj,none,1.0,1.51,this,0.5885,FAITHFUL
+FKD-bqh07y,none,1.0,1.56,battle,0.9106,FAITHFUL
+FKD-14jlcd,none,0.9961,1.77,two,0.5886,FAITHFUL
+FKD-2dhkvw,none,1.0,1.63,my,1.0,FAITHFUL
+FKD-5wcrbc,none,1.0,1.6,in,0.4577,FAITHFUL
+FKD-1unflb,none,1.0,2.08,kanye,1.0,FAITHFUL
+FKD-bgsitn,none,0.9961,1.75,this,0.6008,FAITHFUL
+FKD-c2ifyl,none,1.0,1.73,i,0.8981,FAITHFUL
+FKD-d7nhye,none,0.9961,1.84,my,0.941,FAITHFUL

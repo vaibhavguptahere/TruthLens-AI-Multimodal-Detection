@@ -1,0 +1,23 @@
+[
+  {
+    "ablation_condition": "Full Multimodal (Image + Text)",
+    "accuracy": 0.7667,
+    "precision": 0.7547,
+    "recall": 0.72,
+    "f1": 0.7312
+  },
+  {
+    "ablation_condition": "Image Only (Ablated Text)",
+    "accuracy": 0.4389,
+    "precision": 0.335,
+    "recall": 0.3778,
+    "f1": 0.2737
+  },
+  {
+    "ablation_condition": "Text Only (Ablated Image)",
+    "accuracy": 0.6167,
+    "precision": 0.5983,
+    "recall": 0.5667,
+    "f1": 0.5468
+  }
+]

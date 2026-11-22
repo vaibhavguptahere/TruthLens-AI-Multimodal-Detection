@@ -1,0 +1,5 @@
+manipulation_type,sample_count,accuracy
+none,75,0.8667
+photoshop_splice,45,0.9556
+out_of_context,30,0.4667
+ambiguous,30,0.5333

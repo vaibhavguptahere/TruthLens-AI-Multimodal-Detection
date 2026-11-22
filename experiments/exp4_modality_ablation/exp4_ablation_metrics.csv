@@ -1,0 +1,4 @@
+ablation_condition,accuracy,precision,recall,f1
+Full Multimodal (Image + Text),0.7667,0.7547,0.72,0.7312
+Image Only (Ablated Text),0.4389,0.335,0.3778,0.2737
+Text Only (Ablated Image),0.6167,0.5983,0.5667,0.5468
